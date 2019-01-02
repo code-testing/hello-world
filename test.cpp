@@ -1,9 +1,11 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main(){
 
-cout << "Hello World!" << endl;
-cout << "This is fun to edit!" << endl;
+string sLine = "This is fun to edit!";
+
+cout << sLine << endl;
 return 0;
 }
